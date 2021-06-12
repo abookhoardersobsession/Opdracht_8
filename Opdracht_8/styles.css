@@ -1,0 +1,90 @@
+
+
+body{
+    background-color: #CCCCFF;
+    color: darkslateblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    line-height: 1.5em;
+
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    /* Same as above */
+    padding: 5px;
+}
+
+header + main{
+    border: 1.5px dashed #9900ff59;
+    margin: auto;
+    padding-left: 15px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-style: italic;
+}
+h1{
+    font-size: 30px;
+    padding: 15px;
+}
+h3{
+    font-size: 18px;
+}
+
+.opsomming{
+    border: 1.5px dashed #9900ff59 
+}
+
+ul{
+    font-size: smaller;
+}
+
+.my-form{
+    padding: 25px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+/* Media Queries */ 
+
+    /* smartphone */
+@media (min-width: 320px) {
+    body { 
+        background-color: khaki;
+        color: black;
+    }
+}
+
+    /* tablet */
+@media (min-width: 768px) {
+    body {
+        font-size: 1,25rem;
+        background-color: cadetblue;
+        color: darkslateblue;
+        font-size: 18px;
+        line-height: 1.65em;
+    }
+}
+
+    /* desktop */
+@media (min-width: 1024px) {
+    body { 
+        background-color: cornflowerblue;
+        color: honeydew;
+        font-size: 20px;
+        line-height: 1.75em;
+    }
+}
